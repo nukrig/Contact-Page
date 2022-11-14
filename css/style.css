@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background-color: white;
+    display: flex;
+}
+.left-box{
+        flex-basis: 60%;
+        padding: 40px 60px;
+}
+.left-box h3{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+.right-box{
+        flex-basis: 40%;
+        background-color: blue;
+        color: white;
+        padding: 40px;
+}
+h1{
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 30px;
+    text-shadow: 10px 10px 19px black;
+}
+.front{
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.heading{
+    color: white;
+    margin-bottom: 40px;
+    /* font-family: 'Rubik Bubbles', cursive; */
+    font-size: 20px;
+    text-shadow: 10px 10px 20px black;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    flex-basis: 45%;
+}
+input{
+    width:100%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+.textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-top: 10px;
+    resize: none;
+}
+button{
+    width: 25%;
+    border: 0;
+    outline: none;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px blue;
+    margin-top: 30px;
+    margin-left: 38%;
+}
+
+.right-box h3{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 7px 7px 15px white;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 30px;
+}
+
+tr td{
+    padding-top: 30px;
+}
+.icons{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.fa-facebook-f{
+    font-size: 30px;
+    background-color: white;
+    color: blue;
+    border-radius: 30px;
+    padding: 10px 17px;
+    margin-right: 20px;
+}
+.fa-twitter{
+    font-size: 30px;
+    background-color: white;
+    color: rgb(7, 60, 231);
+    border-radius: 30px;
+    padding: 10px;
+}
+.fa-google-plus-g{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 7px;
+    margin-right: 20px;
+}
